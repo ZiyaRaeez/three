@@ -42,15 +42,15 @@ function createPlanet(radius, textureUrl, orbitRadius, color) {
 
 
 const planets = [];
-planets.push(createPlanet(0.39, 'mercury.jpg', 10, 0xffd700)); // Mercury
-planets.push(createPlanet(0.95, 'venus.jpg', 15, 0xffa500)); // Venus
-planets.push(createPlanet(1, 'earth.jpg.jpg', 20, 0x0000ff)); // Earth
-planets.push(createPlanet(0.27, 'moon.jpg.jpg', 23, 0xffffff)); // Moon (attached to Earth)
-planets.push(createPlanet(0.53, 'mars.jpg', 25, 0xff4500)); // Mars
-planets.push(createPlanet(6.8, 'jupiter.jpg', 35, 0xffd700)); // Jupiter
-planets.push(createPlanet(5, 'saturn.jpg', 50, 0xcd853f)); // Saturn
-planets.push(createPlanet(3.0, 'uranus.jpg', 65, 0xadd8e6)); // Uranus
-planets.push(createPlanet(2.9, 'neptune.jpg', 75, 0x00008b)); // Neptune
+planets.push(createPlanet(0.39, '/mercury.jpg', 10, 0xffd700)); // Mercury
+planets.push(createPlanet(0.95, '/venus.jpg', 15, 0xffa500)); // Venus
+planets.push(createPlanet(1, '/earth.jpg.jpg', 20, 0x0000ff)); // Earth
+planets.push(createPlanet(0.27, '/moon.jpg.jpg', 23, 0xffffff)); // Moon (attached to Earth)
+planets.push(createPlanet(0.53, '/mars.jpg', 25, 0xff4500)); // Mars
+planets.push(createPlanet(6.8, '/jupiter.jpg', 35, 0xffd700)); // Jupiter
+planets.push(createPlanet(5, '/saturn.jpg', 50, 0xcd853f)); // Saturn
+planets.push(createPlanet(3.0, '/uranus.jpg', 65, 0xadd8e6)); // Uranus
+planets.push(createPlanet(2.9, '/neptune.jpg', 75, 0x00008b)); // Neptune
 
 
 
